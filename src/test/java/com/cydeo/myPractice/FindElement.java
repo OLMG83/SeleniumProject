@@ -10,7 +10,7 @@ public class FindElement {
     public static void main(String[] args) {
 
 
-        // Open browser
+        // we will to Open browser
         WebDriver driver = WebDriverFactory.getDriver("chrome");
 
      driver.manage().window().maximize();
