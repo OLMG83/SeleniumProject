@@ -9,8 +9,8 @@ public class LearningProperties {
     @Test
     public void java_properties_reading_test(){
 
-        //key = value
-        //we pass the key, it will return the value.
+        //(When I pass my -->) key = (it's will return me --> )value
+        //we pass the key(Key we used for map) it will return the value.
         System.out.println("System.getProperty(\"os.name\") = " + System.getProperty("os.name"));
         System.out.println("System.getProperty(\"user.name\") = " + System.getProperty("user.name"));
     }
